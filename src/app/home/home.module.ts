@@ -5,8 +5,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   imports: [
+    AgmCoreModule,
     IonicModule,
     CommonModule,
     FormsModule,
@@ -14,4 +17,4 @@ import { HomePage } from './home.page';
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule { }

@@ -4,7 +4,13 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content>
+  <agm-map *ngIf="locations && locations.length"
+           [latitude]="locations[0].lat"
+           [longitude]="locations[0].lng"
+           [zoom]=5>
+    <agm-marker *ngFor="let l of locations"
+                [latitude]="l.lat"
+                [longitude]="l.lng"></agm-marker>
+  </agm-map>
 </ion-content>
