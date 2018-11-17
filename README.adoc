@@ -1,5 +1,8 @@
 = Oyster UI Ionic
 
+== Prerequisites
+* Node 10 & NPM installed (https://nodejs.org/en/download/)
+
 == Installation
 * `cd` into this project directory
 * Install Ionic CLI via `npm install -g ionic`
