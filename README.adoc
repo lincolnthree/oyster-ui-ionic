@@ -1,12 +1,12 @@
 = Oyster UI Ionic
 
 == Installation
-# `cd` into this project directory
-# Install Ionic CLI via `npm install -g ionic`
-# Initialize the local node_modules via `npm install` (or `npm i` for short)
-# Run the app via `ionic serve`
+* `cd` into this project directory
+* Install Ionic CLI via `npm install -g ionic`
+* Initialize the local node_modules via `npm install` (or `npm i` for short)
+* Run the app via `ionic serve`
 
 == Things to do:
-# Get google maps API key: https://cloud.google.com/maps-platform/?apis=maps
-# Install API key in app.module.ts (see comments inline)
-# Get real location and device data from backend (see sigfox.service.ts & home.component.ts)
+* Get google maps API key: https://cloud.google.com/maps-platform/?apis=maps
+* Install API key in app.module.ts (see comments inline)
+* Get real location and device data from backend (see sigfox.service.ts & home.component.ts)
